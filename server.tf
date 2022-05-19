@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "zensar1"
 
   tags = {
-    Name = "Gagan-devops-server-v2"
+    Name = "gbvraju-devops-server-v2"
     env = "production"
     owner = "Gagandeep"
   }
