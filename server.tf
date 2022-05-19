@@ -9,7 +9,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = "gbvraju-devops-server-v2"
     env = "production"
-    owner = "Gagandeep"
+    owner = "Gbvraju"
   }
   provisioner "local-exec" {
     command = "echo The servers IP address is ${self.public_ip} && echo ${self.public_ip} > /tmp/inv"
